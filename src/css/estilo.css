@@ -17,3 +17,115 @@ body{
 
     overflow-x: hidden;
 }
+
+/* HEADER */
+
+header{
+    width: 100%;
+
+    padding: 20px 8%;
+
+    background-color: #0b0b12;
+
+    border-bottom: 2px solid #7b2cff;
+}
+
+/* NAV */
+
+nav{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+/* LOGO */
+
+.logo{
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo h1{
+    color: #7b2cff;
+}
+
+/* MENU */
+
+.menu{
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+
+    color: white;
+}
+
+/* HERO */
+
+.hero{
+    min-height: 90vh;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 60px 8%;
+}
+
+/* HERO TEXT */
+
+.hero-text{
+    max-width: 550px;
+}
+
+.hero-text h2{
+    font-size: 65px;
+
+    color: #7b2cff;
+
+    margin-bottom: 25px;
+}
+
+.hero-text p{
+    margin-bottom: 35px;
+}
+
+/* BOTÃO */
+
+.btn{
+    display: inline-block;
+
+    padding: 15px 32px;
+
+    border-radius: 10px;
+
+    background: linear-gradient(90deg, #7b2cff, #00e5ff);
+
+    color: white;
+
+    text-decoration: none;
+}
+
+/* HERO IMAGE */
+
+.hero-image img{
+    width: 550px;
+
+    border-radius: 20px;
+}
